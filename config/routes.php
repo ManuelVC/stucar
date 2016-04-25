@@ -10,4 +10,7 @@ define('ROUTE',[
 	'contacto' => ['controller' => 'GlobalController', 'method' => 'contacto'],
 	'directobuy' => ['controller' => 'GlobalController', 'method' => 'directobuy'],
 	'notfound' => ['controller' => 'GlobalController', 'method' => 'notfound'],
+	'admin' => ['controller' => 'AdminController', 'method' => 'index'],
+	'admin/panel' => ['controller' => 'AdminController', 'method' => 'panel'],
+	'admin/directos' => ['controller' => 'AdminController', 'method' => 'directos']
 	]);

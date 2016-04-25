@@ -12,6 +12,8 @@
 				</div>
 		</div>
 		<!----//end-banner---->
+
+
 		<!----//start-content---->
 		<div class="main">
 		   <div class="content_white">
@@ -102,53 +104,9 @@
 				});
 			</script>
 			<script type="text/javascript" src="<?= PUBLIC_PATH ?>assets/js/jquery.flexisel.js"></script>
-		   <div class="testmonial" id="camionetas"> 
-		    <div class="row testmonial_top">
-		    	<div class="col-md-6">
-		    		<ul class="test_box">
-		    			<li class="test_img"><img src="<?= PUBLIC_PATH ?>assets/images/pic1.jpg" class="img-responsive" alt=""/> </li>
-						<li class="test_desc">
-							<h4><a href="<?= PUBLIC_PATH ?>camioneta">NISSAN NV350</a></h4>
-							<p>Es la camioneta tipo van para pasajeros más exitosa. Por durabilidad y calidad con capacidad de 15 pasajeros.<a href="<?= PUBLIC_PATH ?>camioneta" class="test_btn">   + ver mas</a></p>
-					    </li>	
-					    <div class="clearfix">	</div>    				
-		    		</ul>
-		    	</div>
-		    	<div class="col-md-6">
-		    		<ul class="test_box">
-		    			<li class="test_img"><img src="<?= PUBLIC_PATH ?>assets/images/pic2.jpg" class="img-responsive" alt=""/> </li>
-						<li class="test_desc">
-							<h4><a href="<?= PUBLIC_PATH ?>camioneta">NISSAN NV200</a></h4>
-							<p>Capacidad de 5 pasajeros comodamente sentados con aire acondicionado y musica. Un costo menor a diferencia de las demas vans <a href="<?= PUBLIC_PATH ?>camioneta" class="test_btn">   + ver mas</a></p>
-					    </li>	
-					    <div class="clearfix">	</div>    		    				
-		    		</ul>
-		    	</div>
-		    </div>	
-		    <div class="row testmonial_bottom">
-		    	<div class="col-md-6">
-		    		<ul class="test_box">
-		    			<li class="test_img"><img src="<?= PUBLIC_PATH ?>assets/images/pic3.jpg" class="img-responsive" alt=""/> </li>
-						<li class="test_desc">
-							<h4><a href="<?= PUBLIC_PATH ?>camioneta">TOYOTA HIACE</a></h4>
-							<p>Cuenta con un gran espacio para transportar hasta 15 pasajeros comodamente sentados y aire acondicionado en la parte trasera. <a href="<?= PUBLIC_PATH ?>camioneta" class="test_btn">   + ver mas</a></p>
-					    </li>	
-					    <div class="clearfix">	</div>    		    				
-		    		</ul>
-		    	</div>
-		    	<div class="col-md-6">
-		    		<ul class="test_box">
-		    			<li class="test_img"><img src="<?= PUBLIC_PATH ?>assets/images/pic4.jpg" class="img-responsive" alt=""/> </li>
-						<li class="test_desc">
-							<h4><a href="<?= PUBLIC_PATH ?>camioneta">MERCEDES SPRINTER</a></h4>
-							<p>Amplio y acogedor: la combinación de confort, dimensiones generosas y variabilidad hace del habitáculo de la nueva Sprinter Pasaje un espacio agradable para un máximo de 23 personas.
-							<a href="<?= PUBLIC_PATH ?>camioneta" class="test_btn">   + ver mas</a></p>
-					    </li>	
-					    <div class="clearfix">	</div>    		    				
-		    		</ul>
-		    	</div>
-		    </div>	
-		  </div>    
+
+			<?php require_once APP_PATH.'views/partials/camioneta.view.php';  ?>
 		</div>
+
 		
 <?php require_once APP_PATH.'views/partials/foot.view.php'; ?>

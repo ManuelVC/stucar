@@ -15,10 +15,8 @@ if($route){
 	$controller = $route['controller'];
 	$method = $route['method'];
 }else{
-	$controller = ROUTE['error']['controller'];
-	$method = ROUTE['error']['method'];
+	die('Page Not Found');
 }
-
 
 Route::get($controller,$method);
 

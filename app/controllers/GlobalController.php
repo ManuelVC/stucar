@@ -3,44 +3,43 @@
 namespace App\Controllers;
 
 use App\Libs\View;
+use App\Models\Camioneta;
 
 class GlobalController{
 
 	public function index(){
-		View::render('index');
+		$camioneta = new Camioneta();
+		$tableCam = $camioneta->all();
+
+		View::render('page/index',compact('tableCam'));
 	}
 
 	public function especial(){
-		View::render('especial');
+		View::render('page/especial');
 	}
 
 	public function directo(){
-		View::render('directo');
+		View::render('page/directo');
 	}
 
 	public function colectivo(){
-		View::render('colectivo');
+		View::render('page/colectivo');
 	}
 
 	public function camioneta(){
-		View::render('camioneta');
+		View::render('page/camioneta');
 	}
 
 	public function acerca(){
-		View::render('acerca');
+		View::render('page/acerca');
 	}
 
 	public function contacto(){
-		View::render('contacto');
+		View::render('page/contacto');
 	}
 
 	public function directobuy(){
-		View::render('directobuy');
+		View::render('page/directobuy');
 	}
-
-	public function notfound(){
-		View::render('notfound');
-	}
-
 
 }

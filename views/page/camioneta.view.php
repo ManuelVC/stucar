@@ -17,7 +17,7 @@
 		<div class="container">
 			<div class="row car">
 				<div class="col-md-6" >
-					<img src="<?= PUBLIC_PATH ?>assets/images/nv200.jpg" width="500px" height:"300px" alt="">
+					<img src="<?= PUBLIC_PATH ?>assets/images/vans/grande/nv350.jpg" width="500px" height:"300px" alt="">
 				</div>
 
 				<div class="col-md-6">
@@ -36,7 +36,7 @@
 		    <div class="row testmonial_top" style="margin: 2em auto">
 		    	<div class="col-md-6">
 		    		<ul class="test_box">
-		    			<li class="test_img"><img src="<?= PUBLIC_PATH ?>assets/images/pic1.jpg" class="img-responsive" alt=""/> </li>
+		    			<li class="test_img"><img src="<?= PUBLIC_PATH ?>assets/images/vans/chica/pic1.jpg" class="img-responsive" alt=""/> </li>
 						<li class="test_desc">
 							<h4><a href="#">NISSAN NV350</a></h4>
 							<p>Es la camioneta tipo van para pasajeros más exitosa. Por durabilidad y calidad con capacidad de 15 pasajeros.<a href="camioneta.html" class="test_btn">   + ver mas</a></p>
@@ -46,7 +46,7 @@
 		    	</div>
 		    	<div class="col-md-6">
 		    		<ul class="test_box">
-		    			<li class="test_img"><img src="<?= PUBLIC_PATH ?>assets/images/pic2.jpg" class="img-responsive" alt=""/> </li>
+		    			<li class="test_img"><img src="<?= PUBLIC_PATH ?>assets/images/vans/chica/pic2.jpg" class="img-responsive" alt=""/> </li>
 						<li class="test_desc">
 							<h4><a href="#">NISSAN NV200</a></h4>
 							<p>Capacidad de 5 pasajeros comodamente sentados con aire acondicionado y musica. Un costo menor a diferencia de las demas vans <a href="camioneta.html" class="test_btn">   + ver mas</a></p>
@@ -58,7 +58,7 @@
 		    <div class="row testmonial_bottom">
 		    	<div class="col-md-6">
 		    		<ul class="test_box">
-		    			<li class="test_img"><img src="<?= PUBLIC_PATH ?>assets/images/pic3.jpg" class="img-responsive" alt=""/> </li>
+		    			<li class="test_img"><img src="<?= PUBLIC_PATH ?>assets/images/vans/chica/pic3.jpg" class="img-responsive" alt=""/> </li>
 						<li class="test_desc">
 							<h4><a href="#">TOYOTA HIACE</a></h4>
 							<p>Cuenta con un gran espacio para transportar hasta 15 pasajeros comodamente sentados y aire acondicionado en la parte trasera. <a href="camioneta.html" class="test_btn">   + ver mas</a></p>
@@ -68,7 +68,7 @@
 		    	</div>
 		    	<div class="col-md-6">
 		    		<ul class="test_box">
-		    			<li class="test_img"><img src="<?= PUBLIC_PATH ?>assets/images/pic4.jpg" class="img-responsive" alt=""/> </li>
+		    			<li class="test_img"><img src="<?= PUBLIC_PATH ?>assets/images/vans/chica/pic4.jpg" class="img-responsive" alt=""/> </li>
 						<li class="test_desc">
 							<h4><a href="#">MERCEDES SPRINTER</a></h4>
 							<p>Amplio y acogedor: la combinación de confort, dimensiones generosas y variabilidad hace del habitáculo de la nueva Sprinter Pasaje un espacio agradable para un máximo de 23 personas.

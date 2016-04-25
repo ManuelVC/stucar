@@ -7,7 +7,7 @@ class Conexion{
 	private $con = null;
 
 	private function connect(){
-		$this->con = new mysqli(DB['host'],DB['user'],DB['pass'],DB['database']);
+		$this->con = new \mysqli('localhost','root','root','stucar');
 		if($this->con->connect_errno)
 			die('Ocurrio un error al conectar con la base de datos');
 	}

@@ -4,11 +4,11 @@ namespace App\Libs;
 
 class View{
 
-	public static function render($view,$array = array()){
-		$path = APP_PATH.'views/page/'.$view.'.view.php';
+	public static function render($view,$data = array()){
+		$path = APP_PATH.'views/'.$view.'.view.php';
 
 		if(file_exists($path)){
-			extract($array);
+			extract($data);
 			require_once $path;
 		}else{
 			die('Page Not Found');
