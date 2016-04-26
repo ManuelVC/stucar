@@ -5,6 +5,7 @@
 <link href="<?= PUBLIC_PATH ?>assets/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="<?= PUBLIC_PATH ?>assets/js/jquery.min.js"></script>
+<script src="<?= PUBLIC_PATH ?>assets/js/js.js"></script>
 <!---- start-smoth-scrolling---->
 <script type="text/javascript">
 		jQuery(document).ready(function($) {

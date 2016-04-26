@@ -11,7 +11,7 @@
 					  <li><a href="<?= PUBLIC_PATH ?>directo">Directos</a></li>
 					  <li><a href="<?= PUBLIC_PATH ?>especial">Especiales</a></li>
 					  <li><a href="<?= PUBLIC_PATH ?>colectivo">Colectivos</a></li>		
-					  <li><a href="<?= PUBLIC_PATH ?>camioneta">Camionetas</a></li>
+					  <li><a href="<?= PUBLIC_PATH ?>camionetas">Camionetas</a></li>
 					  <li><a href="<?= PUBLIC_PATH ?>acerca">Acerca de</a></li>
 					  <li><a href="<?= PUBLIC_PATH ?>contacto">Contacto</a></li>								
 					  <div class="clear"></div>

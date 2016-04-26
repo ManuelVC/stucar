@@ -27,6 +27,11 @@
 </head>
 
 <body>
+    <?php if(isset($data['error']) && !empty($data['error'])): ?>
+        <div class="alert alert-danger">
+            <?= $data['error']; ?>
+        </div>
+    <?php endif; ?>
 
     <div class="container">
         <div class="row">
@@ -36,7 +41,7 @@
                         <h3 class="panel-title">Favor de iniciar sesión</h3>
                     </div>
                     <div class="panel-body">
-                        <form role="form" action="<?= PUBLIC_PATH ?>admin/panel">
+                        <form role="form" action="<?= PUBLIC_PATH ?>admin/panel" method="POST">
                             <fieldset>
                                 <div class="form-group">
                                     <input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>

@@ -13,6 +13,9 @@
             <!-- /.navbar-header -->
 
             <ul class="nav navbar-top-links navbar-right">
+                <li>
+                    <span><?= $data['user'] ?></span>
+                </li>
 
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -52,7 +55,7 @@
                         </li>
 
                         <li>
-                            <a href="<?= PUBLIC_PATH ?>panel"><i class="fa fa-home fa-fw"></i> Oficinas</a>
+                            <a href="<?= PUBLIC_PATH ?>oficinas"><i class="fa fa-home fa-fw"></i> Oficinas</a>
                         </li>
 
                         <li>

@@ -1,16 +1,17 @@
 <?php
 
 define('ROUTE',[
-	'' => ['controller' => 'GlobalController', 'method' => 'index'],
-	'especial' => ['controller' => 'GlobalController', 'method' => 'especial'],
-	'directo' => ['controller' => 'GlobalController','method' => 'directo'],
-	'colectivo' => ['controller' => 'GlobalController', 'method' => 'colectivo'],
-	'camioneta' => ['controller' => 'GlobalController', 'method' => 'camioneta'],
-	'acerca' => ['controller' => 'GlobalController', 'method' => 'acerca'],
-	'contacto' => ['controller' => 'GlobalController', 'method' => 'contacto'],
-	'directobuy' => ['controller' => 'GlobalController', 'method' => 'directobuy'],
-	'notfound' => ['controller' => 'GlobalController', 'method' => 'notfound'],
-	'admin' => ['controller' => 'AdminController', 'method' => 'index'],
-	'admin/panel' => ['controller' => 'AdminController', 'method' => 'panel'],
-	'admin/directos' => ['controller' => 'AdminController', 'method' => 'directos']
+	'' => ['controller' => 'IndexController', 'method' => 'index'],
+	'especial' => ['controller' => 'EspecialController', 'method' => 'index'],
+	'directo' => ['controller' => 'DirectoController','method' => 'index'],
+	'directobuy' => ['controller' => 'DirectoBuyController', 'method' => 'index'],
+	'colectivo' => ['controller' => 'ColectivoController', 'method' => 'index'],
+	'camionetas' => ['controller' => 'CamionetaController', 'method' => 'index'],
+	'camioneta' => ['controller' => 'CamionetaController', 'method' => 'show'],
+	'acerca' => ['controller' => 'AcercaController', 'method' => 'index'],
+	'contacto' => ['controller' => 'ContactoController', 'method' => 'index'],
+	'admin' => ['controller' => 'LoginController', 'method' => 'index'],
+	'admin/panel' => ['controller' => 'PanelController', 'method' => 'index'],
+	'admin/oficinas' => ['controller' => 'OficinaController', 'method' => 'index'],
+	'admin/oficina' => ['controller' => 'OficinaController', 'method' => 'show']
 	]);

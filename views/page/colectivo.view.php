@@ -20,8 +20,9 @@
 			</div>
 			<div class="row" style="margin: 1em 0;">
 				<label for="optradio" style="margin-right: 2em">Oficina: </label>
-           		<label class="radio-inline"><input type="radio" name="oficina" checked>Puerto Vallarta</label>
-				<label class="radio-inline"><input type="radio" name="oficina">Tomatlan</label>
+           		<label class="radio-inline"><input type="radio" name="oficina" id="pv" checked>Puerto Vallarta</label>
+				<label class="radio-inline">
+				<input type="radio" name="oficina" id="to">Tomatlan</label>
 
 			</div>
 			<div class="row" style="margin: 2em 0;">
@@ -34,32 +35,13 @@
  					</tr>
  				</thead>
  				<tbody>
+ 				<?php foreach($data['tableCol'] as $key => $value): ?>
  					<tr>
- 						<td>Puerto vallarta</td>
- 						<td>Tomatlan</td>
- 						<td> $ 84.50</td>
+ 						<td><?= $value['origen']; ?></td>
+ 						<td><?= $value['destino']; ?></td>
+ 						<td> $ <?= $value['tarifa']; ?>.00</td>
  					</tr>
- 					<tr>
- 						<td>Puerto vallarta</td>
- 						<td>Tomatlan</td>
- 						<td> $ 84.50</td>
- 					</tr>
- 					<tr>
- 						<td>Puerto vallarta</td>
- 						<td>Tomatlan</td>
- 						<td> $ 84.50</td>
- 					</tr>
- 					<tr>
- 						<td>Puerto vallarta</td>
- 						<td>Tomatlan</td>
- 						<td> $ 84.50</td>
- 					</tr>
- 					<tr>
- 						<td>Puerto vallarta</td>
- 						<td>Tomatlan</td>
- 						<td> $ 84.50</td>
- 					</tr>
-
+				<?php endforeach; ?>
  				</tbody>
 			</table>
 			</div>

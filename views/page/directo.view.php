@@ -24,7 +24,7 @@
                     <div class="col-lg-12">
 
 
-                      <form id="login-form" role="form" style="display: block; margin-top: 2em">
+                      <form id="login-form" action="<?= PUBLIC_PATH ?>directobuy" method="POST" role="form" style="display: block; margin-top: 2em">
 
 
                       	<div class="form-group">
