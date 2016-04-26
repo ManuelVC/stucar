@@ -7,7 +7,7 @@ use App\Libs\View;
 
 class IndexController{
 
-public function index(){
+	public function index(){
 		$camioneta = new Camioneta();
 		$tableCam = $camioneta->all();
 

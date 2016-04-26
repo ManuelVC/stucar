@@ -6,6 +6,7 @@ define('ROUTE',[
 	'directo' => ['controller' => 'DirectoController','method' => 'index'],
 	'directobuy' => ['controller' => 'DirectoBuyController', 'method' => 'index'],
 	'colectivo' => ['controller' => 'ColectivoController', 'method' => 'index'],
+	'ruta' => ['controller' => 'ColectivoController', 'method' => 'getRuta'],
 	'camionetas' => ['controller' => 'CamionetaController', 'method' => 'index'],
 	'camioneta' => ['controller' => 'CamionetaController', 'method' => 'show'],
 	'acerca' => ['controller' => 'AcercaController', 'method' => 'index'],

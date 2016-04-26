@@ -6,10 +6,11 @@ use App\Mysql\Conexion;
 
 class Colectivo extends Conexion{
 
-	public function find($oficina = 1){
+	public function find($oficina = 21){
 		$sql = 'SELECT origen,destino,tarifa 
 			   FROM oficinas inner join colectivos 
-			   where oficinas.id = '.$oficina.' and oficinas.id = oficina_id';
+			   where oficinas.numero = '.$oficina.' and oficinas.id = oficina_id';
+			   
 		return $this->sql($sql);
 	}
 
